@@ -24,15 +24,15 @@
                     <tbody>
                     
                         <tr style="height: 1px;">
-                            <td> <p style="text-align: center;">TAX INVOICE - SALE</p> </td>
+                            <td> <p style="text-align: center;">DELIVERY NOTE</p> </td>
                         </tr>
                     
                         <tr style="text-align: center;">
                             <td >
-                                <span style="font-size: 250%;">AGATOS SOFTWARE ENGINEERING PTE LTD</span> <br>
-                                <span style="font-size: 120%; font-weight: bold;">DEALERS IN : Products</span> <br>
-                                <span style="font-weight: bold;">REGD ADDRESS :</span> 421 Tagore Industrial Ave<br>Singapore 787805<br>
-                                <span style="font-weight: bold;">EMAIL : info@sg.agatos.com</span> <br><br>
+                                <span style="font-size: 250%;">AGATOS MES PHILIPPINES</span> <br>
+                                <span style="font-size: 120%; font-weight: bold;">DEALERS IN : Automation Products</span> <br>
+                                <span style="font-weight: bold;">REGD ADDRESS :</span> Block 12 Lot 1 Phase 1C Annex San Lorenzo South<br>Dita, Sta. Rosa City, Laguna, Philippines 4026<br>
+                                <span style="font-weight: bold;">EMAIL : info@ph.agatos.com</span> <br><br>
                             </td>
                         </tr>
                     
@@ -41,11 +41,11 @@
                             <table class="outer-box" style="width: 800px; margin-left: auto; margin-right: auto;">
                                 <tbody>
                                     <tr>
-                                        <td class="inner-box" style="text-align: center; font-weight: bold;" colspan="3">GSTIN NO - 123456789CASTR0</td>
+                                        <td class="inner-box" style="text-align: center; font-weight: bold;" colspan="3">DELIVERY </td>
                                     </tr>
                                     <tr>
                                         <td class="inner-box" style="width: 50%; font-weight: bold;">&nbsp;NAME OF CONSIGNEE / BUYER</td>
-                                        <td class="inner-box" style="width: 25%; font-weight: bold;">&nbsp;INVOICE NO</td>
+                                        <td class="inner-box" style="width: 25%; font-weight: bold;">&nbsp;DR NO</td>
                                         <td class="inner-box" style="width: 25%;">&nbsp;{{ bill.billno }}</td>
                                     </tr>
                                     <tr>
@@ -67,7 +67,7 @@
                                         <td class="inner-box align-middle" style="width: 25%;"> <input type="text" name="destination" class="align-middle" style="border: 0; overflow: hidden;" value="{% if billdetails.destination %}{{ billdetails.destination }}{% endif %}"> </td>
                                     </tr>
                                     <tr>
-                                        <td class="inner-box" style="font-weight: bold;">&nbsp;GSTIN No : {{ bill.gstin }} </td>
+                                        <td class="inner-box" style="font-weight: bold;">&nbsp;PO No : {{ bill.gstin }} </td>
                                         <td class="inner-box" style="width: 25%; font-weight: bold;">&nbsp;PO NO &amp; DATE</td>
                                         <td class="inner-box align-middle" style="width: 25%;"> <input type="text" name="po" class="align-middle" style="border: 0; overflow: hidden;" value="{% if billdetails.po %}{{ billdetails.po }}{% endif %}"> </td>
                                     </tr>
